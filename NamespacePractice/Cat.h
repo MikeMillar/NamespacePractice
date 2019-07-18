@@ -5,7 +5,7 @@ namespace cats {
 
 	class Cat
 	{
-
+		int age;
 	public:
 		Cat();
 		~Cat();
