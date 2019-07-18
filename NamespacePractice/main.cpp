@@ -14,6 +14,11 @@ public:
 	void bark() { cout << "Wooof!" << endl; }
 };
 
+class Husky : public Dog {
+public:
+	void shed() { cout << "Furr is everywhere!" << endl; }
+};
+
 int main() {
 
 	cats::Cat cat;
@@ -32,6 +37,10 @@ int main() {
 	b.speak();
 	b.bark();
 
+	Husky c;
+	c.speak();
+	c.bark();
+	c.shed();
 
 
 
